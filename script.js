@@ -1,7 +1,7 @@
 const form = document.getElementById("passcodeForm");
 
 // Define the correct passcode you want to check against
-const correctPasscode = "1277-316-227"; // Replace with your actual passcode
+const correctPasscode = "1277-316-227-120"; // Replace with your actual passcode
 
 // Add a submit event listener to the form
 form.addEventListener("submit", function(event) {
