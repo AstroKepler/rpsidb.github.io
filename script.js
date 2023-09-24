@@ -1,7 +1,8 @@
 const form = document.getElementById("passcodeForm");
 
 // Define the correct passcode you want to check against
-const correctPasscode = "1277-316-227-120"; // Replace with your actual passcode
+const correctPasscode = "1277-316-227-120";
+const sct = "$-3183-1842-8791-1851-AGBN-NGSF-$";// Replace with your actual passcode
 
 // Add a submit event listener to the form
 form.addEventListener("submit", function(event) {
@@ -15,6 +16,8 @@ form.addEventListener("submit", function(event) {
   if (enteredPasscode === correctPasscode) {
     // Redirect to a different HTML file
     window.location.href = "$57987574573498774343/rpsidb.html"; // Replace with the URL of the HTML file you want to redirect to
+  } else if (enteredPasscode === sct) {
+     window.location.href = "$57987574573498774343/urpsidb.html"; // Replace with the URL of the HTML file you want to redirect to
   } else {
     alert("Incorrect passcode. Please try again.");
     // Clear the input field
