@@ -16,7 +16,9 @@ form.addEventListener("submit", function(event) {
   if (enteredPasscode === correctPasscode) {
     // Redirect to a different HTML file
     window.location.href = "$57987574573498774343/rpsidb.html"; // Replace with the URL of the HTML file you want to redirect to
-  } else if (enteredPasscode === sct) {
+  } 
+  
+  if (enteredPasscode === sct) {
      window.location.href = "$57987574573498774343/urpsidb.html"; // Replace with the URL of the HTML file you want to redirect to
   } else {
     alert("Incorrect passcode. Please try again.");
