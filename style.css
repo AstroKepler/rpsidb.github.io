@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
